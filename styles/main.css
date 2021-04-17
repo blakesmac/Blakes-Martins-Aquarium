@@ -1,0 +1,43 @@
+.header {
+text-align: center;
+color: cyan;
+border: 1em;
+padding: 2em;
+}
+
+.mainContent {
+    display: flex;
+    margin: 3em;
+    flex-wrap:wrap;
+    border: 1em solid cyan;
+    padding: 3em;
+    justify-content: center;
+    
+}
+
+.martinsfish {
+    justify-content:flex-start;
+
+}
+
+.martinsTips {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+border: 0.5em solid darkblue;
+} 
+ .footer {
+     display: flex;
+     flex-direction: column;
+     border: 0.5em dotted darkblue;
+     padding: 0.5em;
+ }
+ .harvestLocations {
+     display: flex;
+     flex-direction: column;
+     border: 0.5em solid darkblue;
+     padding: 0.5em;
+     justify-content:stretch;
+ }
+
