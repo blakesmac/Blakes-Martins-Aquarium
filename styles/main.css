@@ -1,43 +1,53 @@
 .header {
 text-align: center;
-color: cyan;
+color: darkblue;
 border: 1em;
 padding: 2em;
 }
 
 .mainContent {
     display: flex;
-    margin: 3em;
+    flex-direction: column;
     flex-wrap:wrap;
-    border: 1em solid cyan;
+    margin: 2em;
+    border: 0.5em solid darkblue;
     padding: 3em;
-    justify-content: center;
-    
-}
-
-.martinsfish {
-    justify-content:flex-start;
-
+    background-color:aquamarine;    
 }
 
 .martinsTips {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-around;
-border: 0.5em solid darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 0.5em solid darkblue;
+    background-color: aquamarine;
 } 
+.martinSig {
+    color: darkblue;
+    font-style: italic;
+}
+
  .footer {
      display: flex;
      flex-direction: column;
-     border: 0.5em dotted darkblue;
+     border: 0.5em solid darkblue;
+     background-color: aquamarine;
      padding: 0.5em;
  }
  .harvestLocations {
      display: flex;
+     flex-wrap: wrap;
      flex-direction: column;
+     margin: 2em;
      border: 0.5em solid darkblue;
+     background-color: aquamarine;
      padding: 0.5em;
-     justify-content:stretch;
+     
+ }
+ .locationName {
+    color: darkblue;
+    font-style: italic;
+    font-size: large;
  }
 
